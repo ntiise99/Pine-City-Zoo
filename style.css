@@ -19,3 +19,10 @@ body {
   height: 70%;
   padding-top: 15px;
 }
+#tabs-top {
+  margin-top: 90px;
+  width: 100%;
+  text-align: center;
+  background: #eee;
+  padding: 10px 0;
+}
