@@ -81,8 +81,8 @@ body {
   float: left;
 }
 .info-box h3 {
-  padding: 0;
-  margin-bottom: 0;
+  padding: 0px;
+  margin-bottom: 0px;
   width: 90%;
   color: #572800;
 }
@@ -90,7 +90,7 @@ body {
   margin: 0;
   padding: 0;
   width: 90%;
-  color: 131313;
+  color: #131313;
 }
 .info-box img.right {
   float: right;
