@@ -16,6 +16,21 @@
       <a href="places.html">PLACES</a>
     </div>
     <div id="main">
+      <img
+        id="moving-animal"
+        src="images/elephant-tn.png"
+        alt="Moving Animal"
+      />
+
+      <script>
+        let img = document.getElementById("moving-animal");
+        let pos = 0;
+        img.onclick = function () {
+          pos += 50;
+          img.style.left = pos + "px";
+          if (pos > window.innerWidth - img.width) pos = 0;
+        };
+      </script>
       <div id="content">
         <div id="info-box-full">
           <img src="images/giraffe-large.jpg" />
