@@ -75,16 +75,16 @@ body {
   padding-top: 1px;
   padding-bottom: 50px;
 }
-a.info-box{
-  text-decoration : none;
-  background      : rgba(245, 241, 218, 0.8);
-  width           : 90%;
-  height          : 90px;
-  display         : block;
-  margin          : auto;
-  margin-top      : 12px;
-  padding         : 1px;
-  }
+a.info-box {
+  text-decoration: none;
+  background: rgba(245, 241, 218, 0.8);
+  width: 90%;
+  height: 90px;
+  display: block;
+  margin: auto;
+  margin-top: 12px;
+  padding: 1px;
+}
 .info-box img {
   height: 70px;
   margin: 10px;
@@ -107,17 +107,35 @@ a.info-box{
   margin-top: 25px;
   height: 40px;
 }
-#info-box-full{
-  background-color : rgba(255, 255, 255, .8) ;
-  width   : 90%;
-  display : block;
-  margin  : auto;
-  margin-top : 12px;
-  padding    : 10px;
-  }
-  #info-box-full img{
-  width : 100%;
-  }
-  #info-box-full h3{
-  text-align : center;
-  }
+#info-box-full {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 90%;
+  display: block;
+  margin: auto;
+  margin-top: 12px;
+  padding: 10px;
+}
+#info-box-full img {
+  width: 100%;
+}
+#info-box-full h3 {
+  text-align: center;
+}
+img.info-box-weather-icon {
+  height: 30px;
+  width: 30px !important;
+  margin: 10px;
+  float: left;
+}
+h1.info-box-weather-icon {
+  font-size: 65px;
+  font-weight: 200;
+  padding: 0;
+  margin: 0;
+}
+table {
+  width: 100%;
+}
+td {
+  border-top: 1px solid #131313;
+}
