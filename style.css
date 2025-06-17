@@ -162,16 +162,7 @@ textarea {
   margin: 12px 0;
   padding: 8px 0;
 }
-@keyframes moveAnimal {
-  0% { transform: translate(0, 0); }
-  50% { transform: translate(50px, 20px); }
-  100% { transform: translate(0, 0); }
-}
 
-.animal {
-  position: absolute;
-  animation: moveAnimal 5s infinite ease-in-out;
-}
 .flip-card {
   background-color: transparent;
   width: 300px;
